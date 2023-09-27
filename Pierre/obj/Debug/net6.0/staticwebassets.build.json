@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "c4eS23d4WL4LKd1s+zJEhXNDyFMaX/BbqJD2BHzjKX4=",
+  "Source": "Pierre",
+  "BasePath": "_content/Pierre",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Pierre/wwwroot",
+      "Source": "Pierre",
+      "ContentRoot": "/Users/queenkayla/Desktop/Pierre.Solution/Pierre/wwwroot/",
+      "BasePath": "_content/Pierre",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/queenkayla/Desktop/Pierre.Solution/Pierre/wwwroot/css/styles.css",
+      "SourceId": "Pierre",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/queenkayla/Desktop/Pierre.Solution/Pierre/wwwroot/",
+      "BasePath": "_content/Pierre",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ]
+}

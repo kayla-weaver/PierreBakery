@@ -1,0 +1,60 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Pierre
+build_property.RootNamespace = Pierre
+build_property.ProjectDir = /Users/queenkayla/Desktop/Pierre.Solution/Pierre/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/queenkayla/Desktop/Pierre.Solution/Pierre
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Home/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Home/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL05ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/NewOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL05ld09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL1NlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/ShowDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL1Nob3dEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/ShowOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL1Nob3dPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

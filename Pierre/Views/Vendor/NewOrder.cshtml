@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+<h1>Add an Order</h1>
+
+<form action="/vendor/@Model.Id/order/new" method="post">
+  <label for="title">Order Title</label>
+  <input id="title" name="title" type="text">
+  <label for="description">Order Description</label>
+  <input id="description" name="description" type="text">
+  <label for="price">Order price</label>
+  <input id="price" name="price" step = ".01" type="number">
+  <label for="orderDate">Order date</label>
+  <input id="orderDate" name="orderDate" type="date">
+  <button type="submit">Add</button>
+  
+ 
+</form>
+
+
+<a href="/vendor/@Model.Id">Return to Vendor Page.</a>

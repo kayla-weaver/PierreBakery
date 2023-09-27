@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+@using Pierre.Models;
+@if(Model == null)
+{
+  <h1>The Order Does Not Exist</h1> 
+}
+else
+{
+  <div class="Container">
+    <div class="jumbotron">
+      <h1>Order Page</h1>
+    </div>
+
+    <div id="orderDetails">
+      
+      <ul>
+        <li>
+          @Model.Title
+          <ul>
+            <li>Description: @Model.Description</li>
+            <li>Date: @Model.Date.ToShortDateString()</li>
+            <li>Price: $@Model.Price</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <h3><a href='/vendor/@Model.VendorId'>Return to @Model.VendorName page.</a></h3>
+    
+  </div>
+}

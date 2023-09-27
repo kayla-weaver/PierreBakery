@@ -1,0 +1,41 @@
+<link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+@using Pierre.Models;
+@if(Model == null)
+{
+  <h1>The Vendor Does Not Exist</h1>
+  
+}
+else
+{
+  <div class="Container">
+    <div class="jumbotron">
+      <h1>Welcome to @Model.Name Page</h1>
+      <h6>@Model.Description</h6>
+    </div>
+
+    <div id="vendorDetails">
+      @if(Model.GetOrderCount() == 0)
+      {
+        <h1>There are currently no Orders!</h1>
+      }
+      else
+      {
+        <ul>
+        @foreach (Order order in Model.GetOrders())
+        {
+            <li>
+              <a href="/vendor/@Model.Id/order/@order.Id">@order.Title:</a> <a href="/vendor/@Model.Id/order/@order.Id/delete">delete</a>
+              <ul>
+                <li>Date: @order.Date.ToShortDateString()</li>
+                <li>Price: $@order.Price</li>
+              </ul>
+            </li>
+        } 
+        </ul>
+      }
+    </div>
+    <h3><a href='/vendor/@Model.Id/order/new'>Add a new Order</a></h3>
+    <a href="/vendor/">Return to Vendor Page.</a>
+    
+  </div>
+}
