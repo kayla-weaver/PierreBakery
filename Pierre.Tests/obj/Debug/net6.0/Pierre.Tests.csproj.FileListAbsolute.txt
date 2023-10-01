@@ -1,0 +1,5 @@
+/Users/queenkayla/Desktop/Pierre.Solution/Pierre.Tests/obj/Debug/net6.0/Pierre.Tests.csproj.AssemblyReference.cache
+/Users/queenkayla/Desktop/Pierre.Solution/Pierre.Tests/obj/Debug/net6.0/Pierre.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/queenkayla/Desktop/Pierre.Solution/Pierre.Tests/obj/Debug/net6.0/Pierre.Tests.AssemblyInfoInputs.cache
+/Users/queenkayla/Desktop/Pierre.Solution/Pierre.Tests/obj/Debug/net6.0/Pierre.Tests.AssemblyInfo.cs
+/Users/queenkayla/Desktop/Pierre.Solution/Pierre.Tests/obj/Debug/net6.0/Pierre.Tests.csproj.CoreCompileInputs.cache
