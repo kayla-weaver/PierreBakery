@@ -27,20 +27,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9fTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Orders/NewOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL05ld09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Orders/ShowOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL1Nob3dPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL2luZGV4LmNzaHRtbA==
+[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL05ldy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/NewOrder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL05ld09yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/Search.cshtml]
@@ -49,10 +53,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/ShowDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL1Nob3dEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/Vendor/ShowOrders.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9yL1Nob3dPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Views/_ViewImports.cshtml]

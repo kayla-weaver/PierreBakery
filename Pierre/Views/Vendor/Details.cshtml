@@ -24,7 +24,7 @@ else
         @foreach (Order order in Model.GetOrders())
         {
             <li>
-              <a href="/vendor/@Model.Id/order/@order.Id">@order.Title:</a> <a href="/vendor/@Model.Id/order/@order.Id/delete">delete</a>
+              <a href="/vendor/@Model.Id/order/@order.Id">@order.Title:</a> 
               <ul>
                 <li>Date: @order.Date.ToShortDateString()</li>
                 <li>Price: $@order.Price</li>

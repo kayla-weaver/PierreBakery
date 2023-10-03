@@ -32,26 +32,26 @@ namespace Pierre.Controllers
       Vendor vendor = Vendor.GetVendorWithId(id);
       return View(vendor);
     }
-    [HttpGet("/vendor/{id}/order/new")]
-    public ActionResult newOrder(int id)
-    {
-      Vendor vendor = Vendor.GetVendorWithId(id);
-      return View(vendor);
-    }
-    [HttpPost("/vendor/{id}/order/new")]
-    public ActionResult CreateOrder(string title, string description, int price, DateTime orderDate, int vendorId)
-    {
-      Vendor vendor = Vendor.GetVendorWithId(vendorId);
-      vendor.AddOrder(new Order(title, description, price, vendor.GetOrderCount(), vendor.Name, orderDate, vendor.Id));
-      return RedirectToAction("Details");
-    }
-    [HttpGet("/vendor/{id}/order/{oid}")]
-    public ActionResult ShowOrder(int id, int oid)
-    {
-      Vendor vendor = Vendor.GetVendorWithId(id);
-      Order order = vendor.GetOrderWithId(oid);
-      return View(order);
-    }
+    // [HttpGet("/vendor/{id}/order/new")]
+    // public ActionResult newOrder(int id)
+    // {
+    //   Vendor vendor = Vendor.GetVendorWithId(id);
+    //   return View(vendor);
+    // }
+    // [HttpPost("/vendor/{id}/order/new")]
+    // public ActionResult CreateOrder(string title, string description, int price, DateTime orderDate, int vendorId)
+    // {
+    //   Vendor vendor = Vendor.GetVendorWithId(vendorId);
+    //   vendor.AddOrder(new Order(title, description, price, vendor.GetOrderCount(), vendor.Name, orderDate, vendor.Id));
+    //   return RedirectToAction("Details");
+    // }
+    // [HttpGet("/vendor/{id}/order/{oid}")]
+    // public ActionResult ShowOrder(int id, int oid)
+    // {
+    //   Vendor vendor = Vendor.GetVendorWithId(id);
+    //   Order order = vendor.GetOrderWithId(oid);
+    //   return View(order);
+    // }
    
 
     [HttpGet("/vendor/search")]
