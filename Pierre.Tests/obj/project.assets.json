@@ -598,6 +598,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Pierre/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Pierre.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pierre.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -2292,6 +2305,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "Pierre/1.0.0": {
+      "type": "project",
+      "path": "../Pierre/Pierre.csproj",
+      "msbuildProject": "../Pierre/Pierre.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2299,6 +2317,7 @@
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
+      "Pierre >= 1.0.0",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -2326,7 +2345,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Pierre.csproj": {
+              "projectPath": "/Users/queenkayla/Desktop/Pierre.Solution/Pierre/Pierre.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
